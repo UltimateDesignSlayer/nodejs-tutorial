@@ -8,4 +8,4 @@ http.createServer(function(request, response){
 	response.end('Hello'); //.end tells the search all response data has been sent and this message is complete.
 }).listen(8081);
 
-console.log('Server running.');
+console.log('Server running. 127.0.0.1:8081');
