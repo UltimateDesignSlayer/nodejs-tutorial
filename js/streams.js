@@ -56,7 +56,3 @@ streamWriter.on('error', function(e){
 	console.log(e.stack);
 	//If error event fires means an error occurred when writing.
 });
-
-
-/***** PIPING STREAM *****/
-
